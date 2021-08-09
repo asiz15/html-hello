@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    padding: 3%;
+}
+
+.instagram-post{
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.instagram-post--header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.post-title{
+    font-size: 1em;
+}
+
+.instagram-post--header .left{
+    display: flex;
+    align-items: center;
+}
+.instagram-post--header .right{
+    padding-right: 3px;
+}
+
+.instagram-post-image img {
+    max-width: 100%;
+}
+
+.instagram-post-body{
+    padding: 5px 15px;
+}
+
+.instagram-post-body .body-header--actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.instagram-post-body .body-content .likes{
+    margin-bottom: 10px;
+}
