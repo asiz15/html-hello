@@ -6,7 +6,10 @@
 
 body{
     padding: 3%;
-    background: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
 }
 i{
     cursor: pointer;
@@ -14,8 +17,7 @@ i{
 
 .instagram-post{
     width: 430px;
-    margin: 0 auto;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .instagram-post--header{
@@ -34,7 +36,7 @@ i{
     align-items: center;
 }
 .instagram-post--header .right{
-    padding-right: 3px;
+    padding-right: 5px;
 }
 
 .instagram-post-image img {
@@ -55,6 +57,7 @@ i{
     align-items: center;
     margin-bottom: 25px;
     margin-top: 10px;
+    padding-right: 5px;
 }
 
 .instagram-post-body .body-content .likes{
@@ -75,5 +78,13 @@ i{
 
 .fa-bookmark:hover{
     color: #ff6348;
+}
+
+.post-menu{
+    list-style-type: none;
+    background: #e4e4e4;
+    position: relative;
+    right: -20px;
+    bottom: -20px;
 }
 
