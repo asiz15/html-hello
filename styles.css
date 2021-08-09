@@ -38,7 +38,9 @@ body{
 }
 
 .instagram-post-body{
-    padding: 5px 15px;
+    padding: 5px 10px;
+    font-size: .9em;
+    padding-bottom: 25px;
 }
 
 .instagram-post-body .body-header--actions{
