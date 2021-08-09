@@ -6,6 +6,10 @@
 
 body{
     padding: 3%;
+    background: #efefef;
+}
+i{
+    cursor: pointer;
 }
 
 .instagram-post{
@@ -56,3 +60,20 @@ body{
 .instagram-post-body .body-content .likes{
     margin-bottom: 10px;
 }
+
+.fa-heart:hover{
+    color: #ff6b81;
+}
+
+.fa-comment:hover{
+    color: #5352ed;
+}
+
+.fa-paper-plane:hover{
+    color: #3742fa;
+}
+
+.fa-bookmark{
+    color: #ff6348;
+}
+
